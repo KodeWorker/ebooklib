@@ -1295,7 +1295,7 @@ class EpubReader(object):
 
     def read_file(self, name):
         # Raises KeyError
-        name = os.path.normpath(name)
+#        name = os.path.normpath(name)
         return self.zf.read(name)
 
     def _load_container(self):
